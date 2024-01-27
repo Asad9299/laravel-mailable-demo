@@ -14,7 +14,7 @@
 5. Configure your .env file with your database and mail settings.
 
 6.  Make sure to set the following email-related variables in your `.env` file. Replace the placeholder values with your own email credentials.
-   
+   ```env
     MAIL_MAILER=smtp
     MAIL_HOST=smtp.gmail.com
     MAIL_PORT=587
@@ -27,7 +27,7 @@
 7. **Set the recipient's email address:**
 
     Additionally, specify the recipient's name and email address by setting the following variables:
-
+    ```env
     MAIL_TO_NAME="Recipient's Name"
     MAIL_TO_ADDRESS="recipient@example.com"
 
