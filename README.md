@@ -23,6 +23,7 @@
     MAIL_ENCRYPTION=tls
     MAIL_FROM_ADDRESS=your_email@gmail.com
     MAIL_FROM_NAME="${APP_NAME}"
+    ```
 
 7. **Set the recipient's email address:**
 
